@@ -42,7 +42,7 @@ export default function Skills() {
       </h2>
       <hr className="text-gray-500 border-1" />
       <div className="flex  flex-wrap  md:flex-row justify-center items-center gap-16 my-10 flex-col">
-        <div className=" border-black/60 w-full md:w-1/2 p-2  shadow-2xl shadow-black/60  hover:shadow-gray-500/10 transition-all ">
+        <div className=" border-black/60 w-full md:w-1/2  p-2  shadow-2xl shadow-black/60  hover:shadow-gray-500/10 transition-all ">
           <div className="bg-slate-950 p-10">
             <p className="text-center max-w-2xl mx-auto mt-4 text-gray-300 leading-relaxed">
               I recently completed my Bachelor of Computer Applications (BCA)
@@ -73,7 +73,7 @@ export default function Skills() {
 
             <button className="mt-6 px-6 py-3 font-bold bg-orange-500 text-white rounded-lg shadow-lg hover:bg-orange-600 transition-all duration-300">
               <a href={komalImg} download>
-                {" "}
+               
                 Download CV
               </a>
             </button>
@@ -81,11 +81,11 @@ export default function Skills() {
         </div>
 
         {/* Right Side: Skills Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center  ">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 md:gap-6 gap-20 place-items-center  ">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="relative w-48 h-48 bg-slate-950  rounded-xl shadow-2xl flex flex-col items-center justify-center p-5
+              className="relative sm:w-48 sm:h-48 h-38 w-34 bg-slate-950  rounded-xl shadow-2xl flex flex-col items-center justify-center p-5
               transition-all duration-300 transform hover:scale-110 hover:shadow-gray-500/90 "
             >
               <img src={skill.icon} className="w-16 h-16 " alt={skill.name} />
