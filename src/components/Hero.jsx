@@ -21,14 +21,18 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="h-screen flex flex-col md:flex-row justify-center items-start pt-20 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center md:text-left   "
+        className="min-h-[90vh] flex flex-col-reverse md:flex-row justify-center items-center gap-10 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center md:text-left"
+
       >
         {/* Text Content */}
-        <div className="flex items-center ">
-        <div className="p-10 ">
+     
+        <div className=" md:p-10 flex flex-col items-center md:items-start  w-1/2">
           <h1 className="text-5xl font-extrabold">Hi, I'm <span className="text-orange-400">Komal</span></h1>
-          <p className="mt-4 text-lg">A passionate <span className="text-orange-300">Full-Stack Developer</span> skilled in building dynamic web applications using <span className="font-semibold">React.js, Node.js, Express, and MongoDB</span>.</p>
-          <p className="mt-2 text-gray-300">I love solving real-world problems through code and continuously improving my skills. Let's build something amazing together!</p>
+          <p className="mt-4 text-lg">
+          I recently completed my <span className="text-orange-300">Bachelor of Computer Applications (BCA)</span> and I'm passionate about building full-stack web applications. I specialize in technologies like <span className="font-semibold">React.js, Node.js, Express, and MongoDB</span>, and I'm eager to grow as a developer by solving real-world problems through code.
+        </p>
+
+        
           <p className="mt-4 text-xl text-orange-300 animated-text">
                   <span className="auto-type" ref={typedRef}></span></p>
           <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-lg shadow-lg hover:bg-orange-600 transition-all duration-300">
@@ -36,16 +40,15 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="h-[600px] rounded-full  transition-all overflow-hidden duration-300 ">
-          <img src={komalImg} className=" h-[600px]  object-cover p-2 rounded-full border-4 border-gray-400 hover:scale-105 transition-all" alt="" />
+        <div className="mb-6 md:mb-0">
+          <img
+            src={komalImg}
+            className="h-72 w-72 md:h-[600px] md:w-[500px] object-cover p-2 rounded-full border-4 border-gray-400 hover:scale-105 transition-all"
+            alt="Komal"
+          />
         </div>
-        </div>
-        {/* Image Section */}
-        <div class="ocean">
-          <div class="wave"></div>
-          <div class="wave wave2"></div>
-        </div>
-        
+    
+    
       </section>
 
       
