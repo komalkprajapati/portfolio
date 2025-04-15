@@ -1,5 +1,6 @@
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import komalImg from '../assets/komal.jpg'
 
 const Hero = () => {
   const typedRef = useRef('')
@@ -36,7 +37,7 @@ const Hero = () => {
         </div>
 
         <div className="h-[600px] rounded-full  transition-all overflow-hidden duration-300 ">
-          <img src="src\assets\komal.jpg" className=" h-[600px]  object-cover p-2 rounded-full border-4 border-gray-400 hover:scale-105 transition-all" alt="" />
+          <img src={komalImg} className=" h-[600px]  object-cover p-2 rounded-full border-4 border-gray-400 hover:scale-105 transition-all" alt="" />
         </div>
         </div>
         {/* Image Section */}
