@@ -43,7 +43,7 @@ const Hero = () => {
         <div className="mb-6 md:mb-0">
           <img
             src={komalImg}
-            className="h-72 w-72 md:h-[600px] md:w-[500px] object-cover p-2 rounded-full border-4 border-gray-400 hover:scale-105 transition-all"
+            className="h-72 w-72 md:h-[500px] md:w-[400px] object-cover p-2 rounded-full border-4 border-gray-400 hover:scale-105 transition-all"
             alt="Komal"
           />
         </div>
