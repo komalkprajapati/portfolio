@@ -11,7 +11,7 @@ const Projects = () => {
           <p className="text-gray-300 mb-4">A React-based to-do list application that allows users to add, edit, and delete tasks.</p>
           <div className="flex justify-between">
             <a
-              href="https://github.com/yourusername/todo-app" // Replace with your GitHub link
+              href=" https://github.com/komalkprajapati/iTask.git" // Replace with your GitHub link
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-500 hover:text-orange-400"
@@ -19,7 +19,7 @@ const Projects = () => {
               View on GitHub
             </a>
             <a
-              href="https://yourusername.github.io/todo-app" // Replace with live demo URL
+              href="https://komalkprajapati.github.io/iTask/" // Replace with live demo URL
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-500 hover:text-orange-400"
