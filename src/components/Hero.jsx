@@ -19,14 +19,14 @@ const Hero = () => {
   
   return (
     <>
+      
+
       <section
         id="home"
-        className="min-h-[90vh] flex flex-col-reverse md:flex-row justify-center items-center gap-10 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center md:text-left"
-
+        className="flex  flex-col-reverse p-10  md:flex-row justify-center items-center gap-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center md:text-left"
       >
-        {/* Text Content */}
-     
-        <div className=" md:p-10 flex flex-col items-center md:items-start  w-1/2">
+      
+        <div className=" md:p-10 flex flex-col items-center md:items-start  sm:w-1/2 "> 
           <h1 className="text-5xl font-extrabold">Hi, I'm <span className="text-orange-400">Komal</span></h1>
           <p className="mt-4 text-lg">
           I recently completed my <span className="text-orange-300">Bachelor of Computer Applications (BCA)</span> and I'm passionate about building full-stack web applications. I specialize in technologies like <span className="font-semibold">React.js, Node.js, Express, and MongoDB</span>, and I'm eager to grow as a developer by solving real-world problems through code.
@@ -50,7 +50,7 @@ const Hero = () => {
     
     
       </section>
-
+    
       
       
     </>

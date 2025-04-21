@@ -1,20 +1,20 @@
 const data =[
+  {
+      id: 1,
+      title: "E-commerce website",
+      description: "A full-featured e-commerce site built with React, Redux, and React Router. Includes login, product list, cart, order flow, and profile management.",
+      githubLink: "https://github.com/komalkprajapati/Shoe-Store.git",
+      liveDemoLink: " https://komalkprajapati.github.io/Shoe-Store/",
+      image: "https://via.placeholder.com/150"
+    },
     {
-        id: 1,
-        title: "To-Do App",
+        id: 2,
+        title: "iTask",
         description: "A React-based to-do list application that allows users to add, edit, and delete tasks.",
         githubLink: "https://github.com/komalkprajapati/iTask.git", // Replace with your GitHub link
         liveDemoLink: "https://komalkprajapati.github.io/iTask/", // Replace with live demo URL
         image: "https://via.placeholder.com/150" // Replace with your project image URL
     },
-    {
-        id: 2,
-        title: "E-commerce website",
-        description: "A full-featured e-commerce site built with React, Redux, and React Router. Includes login, product list, cart, order flow, and profile management.",
-        githubLink: "https://github.com/komalkprajapati/Shoe-Store.git",
-        liveDemoLink: " https://komalkprajapati.github.io/Shoe-Store/",
-        image: "https://via.placeholder.com/150"
-      },
     {
         id: 3,
         title: "Bootstrap-website",
@@ -29,6 +29,23 @@ const data =[
         description: "A simple password manager built with React and local storage for secure password storage.",
         githubLink: "https://github.com/komalkprajapati/Password-Manager.git",
         liveDemoLink: "  https://komalkprajapati.github.io/Password-Manager/",
+        image: "https://via.placeholder.com/150"
+      },
+    {
+        id: 5,
+        title: "Twitter-Clone",
+        description: "A simple Twitter clone built with Node.js that allows users to post tweets, view timelines, and experience basic social interaction features.",
+        githubLink: "https://github.com/komalkprajapati/Twitter-Clone.git",
+        liveDemoLink: "https://komalkprajapati.github.io/Twitter-Clone/",
+        image: "https://via.placeholder.com/150"
+      },
+    {
+        id: 6,
+        title: "Responsive-navbar",
+        description: "A responsive navigation bar built with HTML, CSS, and JavaScript.",
+       
+        githubLink: "https://github.com/komalkprajapati/Responsive-navbar.git",
+        liveDemoLink: "https://komalkprajapati.github.io/Responsive-navbar/",
         image: "https://via.placeholder.com/150"
       }
       

@@ -1,4 +1,5 @@
 import komalImg from "../assets/komal_CV.pdf";
+
 export default function Skills() {
   const skills = [
     {
@@ -34,70 +35,52 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="pt-32 p-16 bg-gray-900 text-white  ">
-      {/* Left Side: Skills Description */}
+    <section id="skills" className="bg-gray-900 text-white px-6 py-20 md:px-16">
+      <div className="text-center mb-10">
+        <h2 className="text-4xl font-bold text-orange-400 mb-2">
+          <span className="text-gray-500">My</span> Skills
+        </h2>
+        <div className="w-24 h-1 bg-orange-400 mx-auto mb-6" />
+        <p className="text-gray-300 max-w-xl mx-auto">
+          I recently completed my BCA and am exploring full-stack web development.
+          I'm eager to build amazing UIs and efficient backends using modern technologies.
+        </p>
+      </div>
 
-      <h2 className="text-4xl font-bold  text-orange-400 mb-5 ">
-        <span className="text-gray-500">My</span> Skills
-      </h2>
-      <hr className="text-gray-500 border-1" />
-      <div className="flex  flex-wrap  md:flex-row justify-center items-center gap-16 my-10 flex-col">
-        <div className=" border-black/60 w-full md:w-1/2  p-2  shadow-2xl shadow-black/60  hover:shadow-gray-500/10 transition-all ">
-          <div className="bg-slate-950 p-10">
-            <p className="text-center max-w-2xl mx-auto mt-4 text-gray-300 leading-relaxed">
-              I recently completed my Bachelor of Computer Applications (BCA)
-              and have been actively learning full-stack web development. I'm
-              passionate about building responsive and user-friendly websites
-              using technologies like React.js, Node.js, and MongoDB. As a
-              fresher, I'm eager to grow, collaborate on real-world projects,
-              and continuously improve my skills in the tech industry.
-            </p>
-
-            <ul className="mt-6 space-y-3 text-gray-200 text-lg">
-              <li>
-                ✅ <strong>Front-End Development:</strong> Skilled in creating
-                responsive UIs using React.js, JavaScript, Tailwind CSS, and
-                HTML/CSS.
-              </li>
-              <li>
-                ✅ <strong>Back-End Development:</strong> Comfortable building
-                RESTful APIs with Node.js and Express.js, and working with
-                MongoDB for database management.
-              </li>
-              <li>
-                ✅ <strong>Version Control & Deployment:</strong> Familiar with
-                using Git for version control and deploying projects through
-                GitHub.
-              </li>
-            </ul>
-
-            <button className="mt-6 px-6 py-3 font-bold bg-orange-500 text-white rounded-lg shadow-lg hover:bg-orange-600 transition-all duration-300">
-              <a href={komalImg} download>
-               
-                Download CV
-              </a>
-            </button>
-          </div>
+      <div className="grid md:grid-cols-2 gap-10 items-start">
+       
+        <div className="bg-slate-950 p-8 rounded-xl shadow-lg hover:shadow-orange-500/30 transition-all">
+          <p className="text-gray-300 leading-relaxed mb-6">
+            As a fresher, I’m passionate about creating clean, functional user interfaces,
+            working with both front-end and back-end technologies, and collaborating on real-world
+            projects to grow in the tech industry.
+          </p>
+          <ul className="space-y-3 text-gray-200 text-base">
+            <li>✅ <strong>Front-End:</strong> React.js, JavaScript, Tailwind CSS, HTML/CSS</li>
+            <li>✅ <strong>Back-End:</strong> Node.js, Express.js, MongoDB</li>
+            <li>✅ <strong>Tools:</strong> Git, GitHub, Deployment skills</li>
+          </ul>
+          <a
+            href={komalImg}
+            download
+            className="inline-block mt-6 px-6 py-3 font-semibold bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition-all duration-300"
+          >
+            Download CV
+          </a>
         </div>
 
-        {/* Right Side: Skills Cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 md:gap-6 gap-20 place-items-center  ">
+       
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="relative sm:w-48 sm:h-48 h-38 w-34 bg-slate-950  rounded-xl shadow-2xl flex flex-col items-center justify-center p-5
-              transition-all duration-300 transform hover:scale-110 hover:shadow-gray-500/90 "
+              className="bg-gray-800 rounded-xl p-5 shadow-lg hover:shadow-orange-400/40 text-center transition-transform transform hover:scale-105"
             >
-              <img src={skill.icon} className="w-16 h-16 " alt={skill.name} />
-              <p className="mt-3 text-lg font-semibold">{skill.name}</p>
-
-              {/* Progress Bar */}
-              <div
-                className="w-full mt-3 bg-gray-700 rounded-full h-2 "
-                style={{ boxShadow: "0px 0px 2px 1px gray" }}
-              >
+              <img src={skill.icon} alt={skill.name} className="w-12 h-12 mx-auto mb-3" />
+              <h3 className="text-lg font-semibold text-orange-400">{skill.name}</h3>
+              <div className="w-full bg-gray-700 h-2 rounded-full mt-3 mb-1">
                 <div
-                  className="h-2 rounded-full transition-all duration-1000 ease-in-out"
+                  className="h-2 rounded-full transition-all"
                   style={{
                     width: `${skill.level}%`,
                     backgroundColor:
@@ -106,12 +89,10 @@ export default function Skills() {
                         : skill.level > 65
                         ? "#eab308"
                         : "#f43f5e",
-                    boxShadow: "0px 0px 2px 1px",
                   }}
                 ></div>
               </div>
-
-              <p className="mt-1 text-sm text-gray-400">{skill.level}%</p>
+              <p className="text-sm text-gray-400">{skill.level}%</p>
             </div>
           ))}
         </div>
