@@ -1,12 +1,30 @@
-# React + Vite
+# 🚀 Komal's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This website showcases my skills, projects, and experience as a full-stack web developer passionate about building modern, responsive, and user-friendly web applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- ⚡ Smooth scrolling and modern layout
+- 👩‍💻 About Me and Skills section
+- 📁 Projects with GitHub and Live Demo links
+- 📄 Downloadable Resume
+- 📱 Fully responsive design
+- 🔝 Back to Top Button
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js (mentioned in portfolio)
+- **Database:** MongoDB (mentioned in portfolio)
+- **Animations:** Typed.js (for typing effect)
+- **Icons:** Boxicons
+- **Version Control:** Git & GitHub
+
+---
+
+
+
