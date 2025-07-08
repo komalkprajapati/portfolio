@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
       <footer className="bg-gray-900 text-white py-10">
@@ -11,11 +11,11 @@ const Footer = () => {
           <a href="https://github.com/komalkprajapati" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-600">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/your-link" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-600">
+          <a href="http://www.linkedin.com/in/komal-prajapati-b8b7272aa" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-600">
             <FaLinkedin />
           </a>
-          <a href="mailto:your@email.com" className="text-orange-400 hover:text-orange-600">
-            <FaEnvelope />
+          <a href="https://www.instagram.com/art_diamond._/" className="text-orange-400 hover:text-orange-600">
+            <FaInstagram/>
           </a>
         </div>
     

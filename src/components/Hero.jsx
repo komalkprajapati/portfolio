@@ -23,7 +23,7 @@ const Hero = () => {
 
       <section
         id="home"
-        className="flex  flex-col-reverse p-10  md:flex-row justify-center items-center gap-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center md:text-left"
+        className="flex  flex-col-reverse p-10  md:flex-row justify-center items-center gap-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center md:text-left "
       >
       
         <div className=" md:p-10 flex flex-col items-center md:items-start  sm:w-1/2 "> 

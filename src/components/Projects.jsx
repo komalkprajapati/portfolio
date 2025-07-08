@@ -21,6 +21,7 @@ const Projects = () => {
         >
           <div className="flex flex-col h-full justify-between">
             <div>
+              <img src={project.image} alt="hello" className="rounded-2xl mb-5"/>
               <h3 className="text-2xl font-bold text-orange-400 group-hover:text-orange-300 transition-colors mb-3">
                 {project.title}
               </h3>
