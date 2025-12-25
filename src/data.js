@@ -4,8 +4,17 @@ import project3 from './assets/project3.png';
 import project4 from './assets/project4.png';
 import project5 from './assets/project5.png';
 import project6 from './assets/project6.png';
+import project7 from './assets/project7.png';
 const data =[
-  {
+   {
+      id: 7,
+      title: "ZERT",
+      description: "ZERT is a modern web application built using Next.js for the frontend and Payload CMS for content management. It uses MongoDB for data storage and environment variables for secure configuration. The project focuses on building a scalable and structured CMS-based application.",
+      githubLink: "https://github.com/komalkprajapati/Shoe-Store.git",
+      liveDemoLink: "https://zert-nextjs.vercel.app/en",
+      image: project7
+    },
+   {
       id: 1,
       title: "E-commerce website",
       description: "A full-featured e-commerce site built with React, Redux, and React Router. Includes login, product list, cart, order flow, and profile management.",
